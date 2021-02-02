@@ -31,8 +31,9 @@ fun displayNotification(applicationContext:Context,latestArticle: NewsItem){
     val notification = NotificationCompat.Builder(applicationContext,applicationContext.getString(R.string.news_for_you_notification_channel_id))
         .setContentTitle(applicationContext.getString(R.string.latest_news_for_you))
         .setContentText(latestArticle.webTitle)
-        .setSmallIcon(R.drawable.ic_dn)
+        .setSmallIcon(R.drawable.ic_dn_notify)
         .setContentIntent(contentPendingIntent)
+		.setPriority(NotificationCompat.PRIORITY_HIGH)
         .setAutoCancel(true)
         .setLargeIcon(bitmap)
 
