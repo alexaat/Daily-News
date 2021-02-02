@@ -17,9 +17,9 @@ object Constants{
     const val SECOND_ALARM = 7* DAY
     const val THIRD_ALARM = 28* DAY
 
-    const val REQUEST_CODE_FIRST_ALARM = 0
-    const val REQUEST_CODE_SECOND_ALARM = 1
-    const val REQUEST_CODE_THIRD_ALARM = 2
+    const val REQUEST_CODE_FIRST_ALARM = 10
+    const val REQUEST_CODE_SECOND_ALARM = 11
+    const val REQUEST_CODE_THIRD_ALARM = 12
 
     //Notifications
     const val NEWS_UPDATE_NOTIFICATION_ID = 1
